@@ -177,6 +177,7 @@ fun QuoteScreen(
                    text = "Un-Favorite",
                    onClick = { onFavoriteChange(null) },
                    modifier = Modifier.padding(10.dp)
+                       .fillMaxWidth()
                )
 
            }
@@ -186,6 +187,7 @@ fun QuoteScreen(
             text = "menu",
             onClick = { onGenreChange(0) },
             modifier = Modifier.padding(10.dp)
+                .fillMaxWidth(1f)
         )
 
 
